@@ -16,7 +16,7 @@ export async function gasCall<T>(action: string, payload: any = {}): Promise<T> 
   const json: ApiResponse<T> = await res.json();
 
   if (!json.success) {
-    throw new Error(json.message || "Request failed");
+    throw new Error(json.message || "API request failed");
   }
 
   return json.data;
