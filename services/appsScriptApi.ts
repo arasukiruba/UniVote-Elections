@@ -4,7 +4,7 @@ import { Role, ElectionStatus, User, Election, Position, Candidate, WhitelistEnt
 // CONFIGURATION
 // ============================================================================
 const API_URL =
-  'https://script.google.com/macros/s/AKfycbxJrqxch-QOiUZJEEpC54uR_oLMi4beUi_ngQ5TWhiQVuviD1itfIVNOC-ys8j7jPBSdA/exec';
+  'https://script.google.com/macros/s/AKfycbzwBsPv5Wjw_4oUni6tkTwZF9_gGoyMaKgbWRFnTUchDK8g7YPlmmM0K9g3-ZMS0vE_iA/exec';
 
 // ============================================================================
 // CACHE & PERFORMANCE UTILS
